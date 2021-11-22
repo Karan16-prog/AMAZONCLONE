@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/amazonclone/static/css/main.704b9687.chunk.css",
-    "main.js": "/amazonclone/static/js/main.569e0c98.chunk.js",
-    "main.js.map": "/amazonclone/static/js/main.569e0c98.chunk.js.map",
+    "main.js": "/amazonclone/static/js/main.1c1953dd.chunk.js",
+    "main.js.map": "/amazonclone/static/js/main.1c1953dd.chunk.js.map",
     "runtime-main.js": "/amazonclone/static/js/runtime-main.3567afd8.js",
     "runtime-main.js.map": "/amazonclone/static/js/runtime-main.3567afd8.js.map",
     "static/js/2.0fa0cc28.chunk.js": "/amazonclone/static/js/2.0fa0cc28.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3567afd8.js",
     "static/js/2.0fa0cc28.chunk.js",
     "static/css/main.704b9687.chunk.css",
-    "static/js/main.569e0c98.chunk.js"
+    "static/js/main.1c1953dd.chunk.js"
   ]
 }
