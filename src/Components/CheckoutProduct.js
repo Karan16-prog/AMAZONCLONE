@@ -1,6 +1,8 @@
 import React from 'react';
 import './CheckoutProduct.css'
 import { useStateValue } from "./StateProvider";
+import StarRatings from 'react-star-ratings';
+
 
 function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
     const [{ basket }, dispatch] = useStateValue();
@@ -20,15 +22,13 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
             <div className='checkoutProduct__info'>
                 <p className='checkoutProduct__title'>{title}</p>
                 <p className="checkoutProduct__price">
-                    <small>R</small>
+                    <small>₹</small>
                     <strong>{price}</strong>
                 </p>
                 <div className="checkoutProduct__rating">
-                    {Array(rating)
-                    .fill()
-                    .map((_, i) => (
-                        <p>🌟</p>
-                    ))}
+                    <StarRatings rating = {rating} starRatedColor="rgb(243, 168, 66)" 
+                    numberOfStars={5} starDimension='15px' starSpacing='2px'  
+                    className = "star__border__class" />
                 </div>
                 {!hideButton && (
                     <button onClick={removeFromBasket}>Remove from Basket</button>

@@ -63,6 +63,11 @@
   font-weight: 800;
 }
 
+.link__style {
+  text-decoration: none;
+  color: white;
+}
+
 .header__cart {
   display: flex;
   align-items: center;
@@ -72,4 +77,8 @@
 .header__cartNumber {
   margin: 0 10px;
   margin-right: 0px;
+}
+
+.link__style {
+  text-decoration: none;
 }
