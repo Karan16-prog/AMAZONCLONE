@@ -1,7 +1,7 @@
 # amazonclone
 
 
-AMAZON CLONE
+AMAZON REACT CLONE
 
 Developed using React js.
 
