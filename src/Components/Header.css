@@ -1,7 +1,7 @@
 .header {
   display: flex;
   background-color: #232f3e;
-  height: 60px;
+  height: 3.75rem;
   position: static;
   align-items: center;
   width: 100%;
@@ -11,40 +11,40 @@
 }
 
 .header__logo {
-  height: 50px;
-  width: 100px;
+  height: 3.125rem;
+  width: 6.25rem;
   cursor: pointer;
   object-fit: contain;
-  margin: 0 20px;
-  margin-top: 18px;
+  margin: 0 1.25rem;
+  margin-top: 1.125rem;
 }
 
 .header__search {
   align-items: center;
   display: flex;
-  height: 60px;
-  border-radius: 24px;
-  width: 1000px;
+  height: 3.75rem;
+  border-radius: 1.5rem;
+  width: 62.5rem;
 }
 
 .header__searchInput {
-  height: 12px;
-  padding: 10px;
+  height: 0.75rem;
+  padding: 0.625rem;
   border: none;
   width: 100%;
 }
 
 .header__searchIcon {
-  height: 22px;
-  padding: 4px;
+  height: 1.375rem;
+  padding: 0.25rem;
   background-color: #cd9042;
   color: black;
 }
 
 .header__nav {
   display: flex;
-  margin-left: 5px;
-  width: 450px;
+  margin-left: 0.313rem;
+  width: 28.125rem;
   display: flex;
   justify-content: space-evenly;
 }
@@ -72,13 +72,46 @@
   display: flex;
   align-items: center;
   color: white;
+  margin-top: 0.25rem;
 }
 
 .header__cartNumber {
-  margin: 0 10px;
+  margin: 0 0.625rem;
   margin-right: 0px;
 }
 
 .link__style {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .header__option__mobile {
+    display: none;
+  }
+  .header {
+    height: 5.75rem;
+  }
+  .header__cart {
+    flex-direction: column;
+  }
+  .header__cartIcon {
+    position: relative;
+    left: 0.225rem;
+  }
+
+  .header__search {
+    align-items: center;
+    display: flex;
+    height: 5.75rem;
+    border-radius: 1.5rem;
+    width: 62.5rem;
+  }
+
+  .header__searchInput {
+    height: 1.5rem;
+  }
+
+  .header__searchIcon {
+    transform: scale(1.4);
+  }
 }
